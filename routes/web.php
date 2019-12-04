@@ -11,6 +11,9 @@
 |
 */
 
+Route::get('/mylove', function(){
+   return 'test';
+});
 Route::get('/', function () {
     return view('welcome');
 });
